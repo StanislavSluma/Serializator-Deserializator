@@ -1,0 +1,11 @@
+C:\sem_4\OOP\Serializator&&Deserializator\Serializator&&Deserializator\Serializator&&Deserializator\bin\Debug\net8.0\Serializator&&Deserializator.deps.json
+C:\sem_4\OOP\Serializator&&Deserializator\Serializator&&Deserializator\Serializator&&Deserializator\bin\Debug\net8.0\Serializator&&Deserializator.dll
+C:\sem_4\OOP\Serializator&&Deserializator\Serializator&&Deserializator\Serializator&&Deserializator\bin\Debug\net8.0\Serializator&&Deserializator.pdb
+C:\sem_4\OOP\Serializator&&Deserializator\Serializator&&Deserializator\Serializator&&Deserializator\obj\Debug\net8.0\Serializator&&Deserializator.GeneratedMSBuildEditorConfig.editorconfig
+C:\sem_4\OOP\Serializator&&Deserializator\Serializator&&Deserializator\Serializator&&Deserializator\obj\Debug\net8.0\Serializator&&Deserializator.AssemblyInfoInputs.cache
+C:\sem_4\OOP\Serializator&&Deserializator\Serializator&&Deserializator\Serializator&&Deserializator\obj\Debug\net8.0\Serializator&&Deserializator.AssemblyInfo.cs
+C:\sem_4\OOP\Serializator&&Deserializator\Serializator&&Deserializator\Serializator&&Deserializator\obj\Debug\net8.0\Serializator&&Deserializator.csproj.CoreCompileInputs.cache
+C:\sem_4\OOP\Serializator&&Deserializator\Serializator&&Deserializator\Serializator&&Deserializator\obj\Debug\net8.0\Serializator&&Deserializator.dll
+C:\sem_4\OOP\Serializator&&Deserializator\Serializator&&Deserializator\Serializator&&Deserializator\obj\Debug\net8.0\refint\Serializator&&Deserializator.dll
+C:\sem_4\OOP\Serializator&&Deserializator\Serializator&&Deserializator\Serializator&&Deserializator\obj\Debug\net8.0\Serializator&&Deserializator.pdb
+C:\sem_4\OOP\Serializator&&Deserializator\Serializator&&Deserializator\Serializator&&Deserializator\obj\Debug\net8.0\ref\Serializator&&Deserializator.dll
