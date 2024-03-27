@@ -6,39 +6,39 @@ namespace Serializator__Deserializator
     {
         public static string Serialize(string tag, params object[] objs)
         {
-            string res = tag;
-            if (res[^1] != '?')
-                res += '?';
+            string request = tag;
+            if (request[^1] != '?')
+                request += '?';
             foreach (object obj in objs)
             {
-                res += JsonSerializer.Serialize(obj) + "!";
+                request += JsonSerializer.Serialize(obj) + "!";
             }
-            return res;
+            return request;
         }
 
-        public static List<string> Deserializer(string qwerty)
+        public static List<string> Deserializer(string request)
         {
-            string tag = qwerty.Substring(0, qwerty.IndexOf('?') + 1);
-            qwerty = qwerty.Remove(0, qwerty.IndexOf('?') + 1);
-            List<string> res = new List<string>() { tag };
+            string tag = request.Substring(0, request.IndexOf('?') + 1);
+            request = request.Remove(0, request.IndexOf('?') + 1);
+            List<string> parse_request = new List<string>() { tag };
             string arg = "";
             bool IsString = false;
-            for (int i = 0; i < qwerty.Length; i++)
+            for (int i = 0; i < request.Length; i++)
             {
-                if (qwerty[i] == '\"')
+                if (request[i] == '\"')
                 {
                     IsString = !IsString;
                     continue;
                 }
-                if (qwerty[i] == '!' && !IsString)
+                if (request[i] == '!' && !IsString)
                 {
-                    res.Add(arg);
+                    parse_request.Add(arg);
                     arg = "";
                     continue;
                 }
-                arg += qwerty[i];
+                arg += request[i];
             }
-            return res;
+            return parse_request;
         }
     }
 }

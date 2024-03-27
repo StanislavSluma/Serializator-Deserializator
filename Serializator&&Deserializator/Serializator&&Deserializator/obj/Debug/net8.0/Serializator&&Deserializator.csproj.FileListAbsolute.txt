@@ -9,3 +9,4 @@ C:\sem_4\OOP\Serializator&&Deserializator\Serializator&&Deserializator\Serializa
 C:\sem_4\OOP\Serializator&&Deserializator\Serializator&&Deserializator\Serializator&&Deserializator\obj\Debug\net8.0\refint\Serializator&&Deserializator.dll
 C:\sem_4\OOP\Serializator&&Deserializator\Serializator&&Deserializator\Serializator&&Deserializator\obj\Debug\net8.0\Serializator&&Deserializator.pdb
 C:\sem_4\OOP\Serializator&&Deserializator\Serializator&&Deserializator\Serializator&&Deserializator\obj\Debug\net8.0\ref\Serializator&&Deserializator.dll
+C:\sem_4\OOP\Serializator&&Deserializator\Serializator&&Deserializator\Serializator&&Deserializator\obj\Debug\net8.0\Serializator&&Deserializator.sourcelink.json
