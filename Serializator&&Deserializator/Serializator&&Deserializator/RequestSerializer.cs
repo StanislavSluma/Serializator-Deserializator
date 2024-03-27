@@ -11,7 +11,10 @@ namespace Serializator__Deserializator
                 request += '?';
             foreach (object obj in objs)
             {
-                request += JsonSerializer.Serialize(obj) + "!";
+                if(obj.GetType().Name == "String")
+                    request += $"${obj}$!";
+                else
+                    request += JsonSerializer.Serialize(obj) + "!";
             }
             return request;
         }
@@ -26,6 +29,8 @@ namespace Serializator__Deserializator
             for (int i = 0; i < request.Length; i++)
             {
                 if (request[i] == '\"')
+                    IsString = !IsString;
+                if (request[i] == '$')
                 {
                     IsString = !IsString;
                     continue;

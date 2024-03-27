@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Serializator&&Deserializator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a2435662d578be134c0da0be2f2f81df246abbc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+867163bfbf694b5ddecf17f12d725d2b6d8c6412")]
 [assembly: System.Reflection.AssemblyProductAttribute("Serializator&&Deserializator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Serializator&&Deserializator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
